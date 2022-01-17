@@ -1,6 +1,7 @@
 body {
-    width: 425px;
-    border: solid 1px gray;
+    width: 100%;
+    /*width: 425px;*/
+    /*border: solid 1px gray;*/
     margin: 0 auto;
     padding-top: 50px;
     font-family: "Open Sans", sans-serif;
@@ -45,7 +46,8 @@ p {
 .header {
     position: fixed;
     top: 0;
-    width: 425px;
+    width: 100%;
+    /*width: 425px;*/
     z-index: 1;
 }
 
@@ -161,7 +163,7 @@ p {
 }
 
 .overflow-slider-wrapper {
-    margin: 0 -1.25rem 30px;
+    margin: 0 -10px 30px;
 }
 
 .overflow-slider-wrapper h2 {
