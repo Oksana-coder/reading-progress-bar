@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Reading Progress Bar</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="navbar">
+            <svg viewBox="0 0 100 80" width="21" height="17" class="menu-icon">
+                <rect width="100" height="15"></rect>
+                <rect y="30" width="100" height="15"></rect>
+                <rect y="60" width="100" height="15"></rect>
+            </svg>
+            <img src="https://static.focus.de/pics/fol/fol_logo_ohne_outline.svg" alt="Focus Online Logo" width="80" class="logo">
+        </div>
+        <div id="progress-bar">
+            <div class="progress-value">0%</div>
+        </div>
+    </div>
+
+    <div class="container">
+    <article>
+
+        <div id="newsbreadcrumb">
+            <svg width="0" height="0" style="position:absolute"><defs><svg id="breadcrumb" viewBox="0 0 5 10" xmlns="http://www.w3.org/2000/svg"><path d="M2.66 5.013l-.393-.536-2.091-2.72a.32.32 0 01.06-.457l.46-.338a.337.337 0 01.468.067l2.87 3.76c.051.066.075.148.068.23a.3.3 0 01-.068.22L1.164 8.97a.337.337 0 01-.467.066L.237 8.7a.313.313 0 01-.06-.457l2.483-3.23z"></path></svg></defs></svg>
+            <div class="slideGradient left hidden"></div>
+            <ul id="breadcrumb_ul">
+                <li class="first">
+                    <a href="https://m.focus.de/" title="Nachrichten">
+                        <svg class="ic_home" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314 286" fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"><path d="M119 269v-70c0-4 4-8 9-8h58c5 0 9 4 9 9v69h56c4 0 8-4 8-8V112L157 20 55 112v149c0 4 4 8 8 8h56zm157-141v133c0 14-11 25-25 25H63c-14 0-25-11-25-25V128l-24 21c-8 7-19-5-11-12L151 2c4-3 8-3 12 0l148 135c8 7-3 19-11 12l-24-21zm-98 141v-61h-42v61h42z" fill-rule="nonzero"></path></svg>
+                        <svg class="ic_breadcrumb"><use href="#breadcrumb"></use></svg>
+                    </a>
+                </li>
+                <li><a href="https://m.focus.de/gesundheit/" title="Gesundheit">Gesundheit<svg class="ic_breadcrumb"><use href="#breadcrumb"></use></svg></a></li>
+                <li><a href="https://m.focus.de/gesundheit/coronavirus/" title="Coronavirus">Coronavirus<svg class="ic_breadcrumb"><use href="#breadcrumb"></use></svg></a></li>
+                <li><h1>Neurologe über Corona-Leugner: "Ihr Vernunft-Gehirn schaltet sich aus"</h1></li>
+            </ul>
+            <div class="slideGradient right"></div>
+        </div>
+
+        <div>
+            <span class="overhead">Borwin Bandelow im Gespräch</span>
+            <h1 class="headline">"Ihr Vernunft-Gehirn schaltet sich aus": Neurologe erklärt, was Corona-Leugner antreibt</h1>
+        </div>
+        <p class="date">Montag, 10.01.2022 | 14:38</p>
+        <img src="https://p6.focus.de/img/politik/deutschland/id_35166033/auf-einer-demonstration-im-november-2020-in-leipzig-werden-wissenschaftler-und-politiker-als-straeflinge-gezeigt..jpg?im=Resize%3D%28630%2C418%29&impolicy=perceptual&quality=medium&hash=c3dc4b1d903abe7755acffc35aacf356e46bc32f019d0c2743d2fd2e9b9466b7" alt="Auf einer Demonstration im November 2020 in Leipzig werden Wissenschaftler und Politiker als Sträflinge gezeigt.">
+        <div class="clearfix">
+            <span class="source">Sebastian Kahnert/dpa-Zentralbild/dpa</span>
+            <span class="caption">Auf einer Demonstration im November 2020 in Leipzig werden Wissenschaftler und Politiker als Sträflinge gezeigt.</span>
+        </div>
+
+        <div class="inner authorBlue">
+            <div class="authorMeta">
+                <span class="authorTitle">FOCUS-Online-Autorin <a href="https://m.focus.de/intern/impressum/autoren/elisabeth-hussendoerfer_id_7646605.html" title="Autorenseite von Elisabeth Hussendörfer" rel="author">Elisabeth Hussendörfer</a></span><div class="authorSocSites"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <p class="lead-in">Um die Pandemie zu beenden, müssen möglichst viele Menschen geimpft sein. Das werden Mediziner nicht müde zu betonen. Dennoch sind fast zehn Millionen Erwachsene in Deutschland ungeimpft. Was die Hardliner unter ihnen antreibt, erklärt Angstforscher Borwin Bandelow.</p>
+        <p>Corona-Leugner wirken zuweilen unerschrocken. Manche betonen, das Virus sei harmlos beziehungsweise längst nicht so gefährlich wie vielfach behauptet. Psychiater und Neurologen Borwin Bandelow spricht im FOCUS-Online-Interview über den unterschiedlichen Umgang der Menschen mit der Angst.</p>
+        <p>
+            <strong>FOCUS Online: Das „Angstbuch“ gehört zu Ihren bekanntesten Veröffentlichungen, Sie haben sich umfangreich mit dem Thema auseinandergesetzt. Wie ist Ihre Einschätzung: Haben Menschen, die das Virus leugnen oder gegen Corona-Maßnahmen auf die Straße gehen, wirklich weniger Angst als andere?</strong>
+        </p>
+        <p>
+            <strong>Borwin Bandelow: </strong>
+            Überhaupt nicht. Viele sind sehr besorgt. Am Anfang hatten alle Angst vor der Infektion – daran haben sich die Menschen gewöhnt. Seit einiger Zeit nun ist es die Impfung, die vielen Angst macht. Nach einer Forsa-Umfrage vermuten 74 Prozent der Ungeimpften, dass die Langzeitwirkungen der Impfstoffe nicht genügend untersucht worden sind.
+        </p>
+        <p>
+            <strong>Woher kommt diese Angst?</strong>
+        </p>
+        <p>
+            <strong>Bandelow: </strong>
+            Da macht sehr viel Pseudowissenschaftliches die Runde. Theorien, die einfach und plausibel sind – aber falsch. Eine Theorie muss nicht nur beweisbar sein, es muss auch möglich sein, das Gegenteil zu beweisen, sie muss also „falsifizierbar“ sein.
+        </p>
+        <p>Als man noch nicht zum Mond fliegen konnte, durfte man zum Beispiel ungestraft behaupten, der Mond  bestehe aus grünem Käse. So werden heute Hypothesen verbreitet, dass mRNA-Impfstoffe Gene verändern können. Nach dem Motto: Messenger RNA – das ist doch irgendwas mit Erbgut. Und es wird verbreitet, dass die Impfungen in ein paar Jahren Langzeitfolgen haben können – ohne dass wir dafür Anhaltspunkte haben. Auch eine nicht falsifizierbare Theorie... </p>
+        <p>
+            <strong>Aber wieso glauben die Leute sowas, trotz fehlender Anhaltspunkte?</strong>
+        </p>
+        <p>
+            <strong>Bandelow: </strong>
+            Schauen wir uns den Umgang mit der Angst genauer an, um das zu verstehen. Ängste werden an zwei verschiedenen Stellen im Gehirn verarbeitet.
+        </p>
+        <p>Zum einen haben wir ein einfaches Angst-System, hier unterscheiden wir uns wenig von den Tieren. Dann haben wir noch ein „Vernunftgehirn“, das sich mit Daten und Zahlen auseinandersetzen kann. Wenn Menschen verunsichert sind – wie in der Pandemie – übernimmt das einfache, archaische Angstsystem die Führung. Das Angstsystem ist nicht gut in Statistik.</p>
+        <div>
+            <img src="https://p6.focus.de/img/fotos/id_36922188/bandelow.jpg?im=Resize%3D%28630%2C852%29&impolicy=perceptual&quality=medium&hash=5156f558a6619ee4911867974a2de3d3fa5b294f8ca62eda0c97fae5c5a260ac" alt="Borwin Bandelow">
+        </div>
+        <div class="caption clearfix" style="width: 100%;">
+            <span class="source">privat</span>
+            <span class="caption">Borwin Bandelow</span>
+        </div>
+        <p>Derzeit stürmen so viele Wahrscheinlichkeiten auf uns ein: 7-Tage-Inzidenz, R-Wert, Krankenhaus-Inzidenz. Entweder man wird zum Amateur-Statistiker, oder man klinkt sich völlig aus solchen Berechnungen aus. Man versucht, sein Angstsystem zu beruhigen, zum Beispiel, indem man sich sagt: „Alles Quatsch...“. </p>
+        <p>
+            <strong>Und dann fängt man an, Corona zu leugnen oder zumindest die Maßnahmen infrage zu stellen?</strong>
+        </p>
+        <p>
+            <strong>Bandelow: </strong>
+            Im Laufe der Zeit ist alles immer komplizierter geworden. Am Anfang war es so: Entweder du bist geimpft, dann wirst du nicht krank, oder du bist ungeimpft und wirst krank. Aber nicht alle Ungeimpften werden krank und auch Geimpfte können an Corona sterben.
+        </p>
+        <p>Dann kamen die Booster-Impfungen und dann kam Omikron. Es wurde immer komplizierter. Menschen wollen klare Ansagen. Man wollte zum Beispiel beim Wetterbericht folgende Aussagen einführen: „Morgen besteht eine Regenwahrscheinlichkeit von 65 Prozent“. Das hat man ziemlich schnell wieder fallen gelassen. Regnet es morgen? Brauche ich einen Schirm? Kann ich spazieren gehen? Das wollen die Leute wissen. Sie wollen ein klares Ja oder ein klares Nein, nichts dazwischen.</p>
+        <p>Wenn man unter Angst steht, gilt das erst recht. Das intelligente Vernunftgehirn schaltet sich sonst aus, und das primitive System übernimmt. Gerade zu Beginn der Pandemie konnte man das sehr schön sehen…</p>
+        <p><strong>Waren die Menschen da unvernünftig?</strong></p>
+        <p><strong>Bandelow: </strong>Ich bezweifle jedenfalls, dass Hamsterkäufe und das Horten von Toilettenpapier in Unmengen ein sinnvoller Beitrag zum Bewältigen der Krise waren. Und jetzt, in der aktuellen Situation, klinkt sich die Vernunft bei vielen erneut aus, bricht das System wieder unter der Last der Statistikanforderungen zusammen. Anders kann ich mir das nicht erklären, wenn sich die Menschen trotz derart explodierender Infektionszahlen zu Tausenden treffen, unbeschwert, ohne Einhaltung irgendwelcher Schutzmaßnahmen.</p>
+        <p><strong>Sie sprechen auf die so genannten „Spaziergänge“ an?</strong></p>
+        <p><strong>Bandelow: </strong>Wenn man sich einer Gruppe von Corona-Leugnern und Impfgegnern anschließt, hat man das Gefühl, Teil einer eingeschworenen Gemeinschaft zu sein. Das schüttet Endorphine in einem weiteren System unseres Gehirns aus: dem Belohnungssystem.</p>
+        <p>Es ist für alle schönen Dinge zuständig, für Essen und Sex , aber eben auch für das Gemeinschaftsgefühl. Das Belohnungssystem funktioniert ebenfalls sehr einfach, sehr archaisch. Sein Ziel ist es, das Angstsystem zu beschwichtigen.</p>
+        <p><strong>Und das funktioniert?</strong></p>
+        <p><strong>Bandelow: </strong>Tatsächlich glauben die Betroffenen, den Stein der Weisen gefunden zu haben, wenn sie sich an die überwertige Idee klammern, dass Corona nur halb so wild ist. Wo eben Sorge war, ist jetzt Sicherheit. Die Leute finden ihren inneren Frieden. Diese fast religiöse Überzeugung macht, dass selbstverständliche soziale Regeln vergessen werden. Linke und Grüne vergessen, dass sie nicht mit Rechten auf die Straße gehen sollten. Sonst friedfertige Menschen greifen an und verletzen sie. Letztlich alles Ergebnisse von Angst, wenn man so will.</p>
+        <p><strong>Wenn Sie sagen, das „intelligente“ Vernunftgehirn klinkt sich aus: Geschieht das eigentlich eher bei weniger intelligenten Menschen?</strong></p>
+        <p><strong>Bandelow: </strong>Auch, wenn man eine hohe Intelligenz hat, ein Abitur und vielleicht ein Studium, schützt einen das nicht davor, Opfer von kruden Verschwörungstheorien zu werden. Es gibt Menschen, die können ein Auto auseinander- und wieder zusammenbauen oder auch komplizierte mathematische Formeln berechnen und trotzdem glauben sie an Heilslehren wie beispielsweise die Homöopathie.</p>
+        <p>Allein in Deutschland werden jährlich 550 Millionen Euro für Homöopathie ausgegeben. Für Kügelchen aus Zucker, deren Nutzen durch keinerlei Studien, wie sie sonst in der Medizin erfordert werden, belegt sind.</p>
+        <p><strong>Haben Sie eine Erklärung hierfür?</strong></p>
+        <p><strong>Bandelow: </strong>Was mir auffällt, ist, dass die Kügelchen gerne gegen Krankheiten genommen werden, vor denen man eigentlich keine Angst haben muss, da sie die gar keine Krankheiten sind: Befindlichkeitsstörungen, Schlafprobleme oder Erkältungen. Beschwerden, die eigentlich gar nicht behandelt werden müssen.</p>
+        <p>Viele Menschen nehmen die Kügelchen, um sich damit eine Angst zu nehmen, die eigentlich unnötig ist. Erstaunlich ist, dass diejenigen, die die homöopathischen und naturheilkundlichen Präparate einnehmen, sich keine Gedanken darüber machen, dass diese weder in Kurz- noch in Langzeitstudien untersucht worden sind, man weiß nichts über Nebenwirkungen. Es sind oft die gleichen Leute, die dann aber von den Impfstoffherstellern verlangen, jahrelange Langzeitdaten vorzulegen.</p>
+        <p><strong>Das klingt widersprüchlich. Wieso sitzen intelligente Menschen sowas auf? Und wieso wird so jemand zum Impfgegner?</strong></p>
+        <p><strong>Bandelow: </strong>Menschen stehen Neuem generell erst mal skeptisch gegenüber. Ein Schutzmechanismus, ganz unabhängig vom Bildungsgrad. Klar, eine Impfung, die auf einer völlig neuartigen Technologie basiert, lässt aufhorchen. Als ich zum ersten Mal von der mRNA-Impfung hörte, war ich zunächst auch skeptisch: Das ist wirklich Hightech, klingt genial, aber wird das auch wirklich funktionieren?</p>
+        <p><strong>Und was kommt dann?</strong></p>
+        <p><strong>Bandelow: </strong>Viele Menschen lassen sich nicht rasch von technischen Fortschritten überzeugen, selbst wenn sie eindeutige Vorteile bieten. Als die erste Taxis aufkamen, lachten die Pferdekutscher und waren sich sicher, dass sich sowas nicht durchsetzt. Meine erste habe ich 1985 geschrieben. Aber versuchen Sie mal, heute an ein deutsches Gericht eine E-Mail zu schreiben – das geht nicht.</p>
+        <p>Menschen lehnen Fortschritte auch ab, selbst wenn sie ihnen eindeutige Vorteile bringen. Man kann heute den grauen Star mit einem Laser operieren, aber viele Menschen nehmen lieber in Kauf, halb blind durch die Welt zu laufen, als sich dieser Operation zu unterziehen.</p>
+        <p><strong>Als die ersten Eisenbahnen fuhren, hatte es geheißen, dass ein Mensch eine Geschwindigkeit von über 25 Stunden Kilometer nicht überleben würde. Jetzt werden ähnliche Schreckensszenarien rund um die Corona-Impfung gezeichnet…</strong></p>
+        <p><strong>Bandelow: </strong>Und wieder wissen wir es inzwischen besser. Nachdem zwischenzeitlich über neun Milliarden Menschen auf der ganzen Welt geimpft wurden, sehen wir nicht nur, dass das Prinzip funktioniert. Wir sehen sogar, dass es sehr gut funktioniert. Dass es eben kein Schicksal ist, ob jemand Corona bekommt oder nicht.</p>
+        <p>Wie hat Marie Curie so schön gesagt? Man muss keine Angst haben, man muss nur alles wissen. Menschen, die sich umfassend über das Virus und die Impfungen informieren, verlieren oft ihre Skepsis.</p>
+        <p><strong>Allerdings ist in der Vergangenheit recht umfassend über das Virus, seine Auswirkungen und auch über die Impfung informiert worden. Vieles scheint einfach nicht durchzudringen. Wieso?</strong></p>
+        <p><strong>Bandelow: </strong>Wenn jemand für die Impfung machen würde, sollte er das Belohnungssystem ansprechen. Keine Fluggesellschaft würde versuchen, in ihren Werbespots das Angstsystem zu triggern mit Sätzen wie „Unsere Gesellschaft hatte kaum Abstürze“. Denn, so erfreulich das an sich ist: Durch eine solche Information werden die Gedanken sofort zum Thema Absturz wandern.</p>
+        <p>Stattdessen versucht man, das Belohnungssystem zu stimulieren: Die Airline zeigt tolle Landschaften, das leckere Essen an Bord, gut aussehende Menschen in Lederbestuhlung – alles sieht elegant aus. Man würde aber auch nicht das Vernunftsystem bemühen, um erfolgreich Werbung zu machen. So würde man bei Auto-Werbespots nicht die technischen Daten, wie Geschwindigkeit, Beschleunigung, Verbrauch oder Reichweite aufzählen.</p>
+        <p>Unser Gesundheitsminister, Karl Lauterbach, ist ziemlich gut darin, unser Vernunftgehirn zu bedienen und alles gut zu erklären. Die Möglichkeiten der Politik sind aber begrenzt, dass Belohnungssystem zu aktivieren. Würde man einen Werbespot für Impfungen machen, würde man vielleicht schöne, junge, geboosterte Menschen zeigen, die mit bunten Drinks ausgelassen um einen Pool herumtanzen. Wenn ich einen entsprechenden Auftrag als Werber hätte, wäre klar, was im Fokus stünde: Fröhlichkeit, Ausgelassenheit, Gemeinschaftsgefühl. Den Impfungsskeptikern soll es verlockend erscheinen, dem richtigen Club beizutreten, bei dem man unbeschwert Partys feiern kann.</p>
+        <p><strong>Was schlagen Sie vor?</strong></p>
+        <p><strong>Bandelow: </strong>Viele hartnäckige Impfgegner werden zunehmend sozial isoliert. Nicht nur, dass sie nicht in Restaurants dürfen und bei vielen Veranstaltungen draußen bleiben müssen – viele ihrer Verwandten und Freunde wenden sich von ihnen ab.</p>
+        <p>Was nicht helfen würde, wäre, sie für unvernünftig zu erklären, ihnen Angst zu machen und sie weiter von allem auszuschließen. Stattdessen sollte man sie mit den positiven Dingen locken, die dann passieren würden, wenn sie dem besseren Club beitreten. Und hier können uns die Politiker nicht helfen. Es sind die vielen geimpften Menschen überall im Land, die Zauderern ihren Beistand anbieten sollten. Es wäre aber auch hilfreich, machtvolle Demonstrationen zu veranstalten, in denen für die Impfung als solidarische Tat geworben wird.</p>
+    </article>
+
+        <div class="overflow-slider-wrapper aoc-wrapper">
+            <h2>Corona-Pandemie: Infos zu Impfungen und Verschwörungen</h2>
+            <div class="overflow-slider-block overflow-slider">
+                <a href="https://praxistipps.focus.de/qanon-deep-state-kinderblut-was-sie-zur-verschwoerungstheorie-wissen-muessen_121309" class="overflow-slider-item" title="Kinderblut und Deep State: Was Sie zur Verschwörungstheorie QAnon wissen müssen" rel="follow" gtm-click="teaser_carousel_inline|click"><img data-src="https://p6.focus.de/img/fotos/id_12851949/bueffel-mann.jpg?im=Crop%3D%280%2C131%2C5708%2C2449%29%3BResize%3D%28476%2C204%29&amp;impolicy=perceptual&amp;quality=medium&amp;hash=4fb3e98b5f454b4359cce7c24e7e4614f5f74f705b5d45e521e04a143fa9e93c" width="300" alt="Kinderblut und Deep State: Was Sie zur Verschwörungstheorie QAnon wissen müssen" class="lazyloaded" src="https://p6.focus.de/img/fotos/id_12851949/bueffel-mann.jpg?im=Crop%3D%280%2C131%2C5708%2C2449%29%3BResize%3D%28476%2C204%29&amp;impolicy=perceptual&amp;quality=medium&amp;hash=4fb3e98b5f454b4359cce7c24e7e4614f5f74f705b5d45e521e04a143fa9e93c">
+                    <script type="application/ld+json">{"@context":"http://schema.org","@type":"ImageObject","contentUrl":"https://p6.focus.de/img/fotos/id_12851949/bueffel-mann.jpg?im=Resize%3D%281280%2C960%29&impolicy=perceptual&quality=medium&hash=5f08412f7ce8950e1cca1bdc7b9704a3191b7a3ce5cd16f57ab1ff4f1c4f83bd"}</script>
+                    <h2>Was Sie zur Verschwörungstheorie QAnon wissen müssen</h2></a><a href="https://praxistipps.focus.de/von-gavin-mcinnes-gegruendet-das-sind-die-proud-boys-der-usa_128305" class="overflow-slider-item" title="Von Gavin McInnes gegründet: Trumps rechter Mob: Die proud boys der USA" rel="follow" gtm-click="teaser_carousel_inline|click"><img data-src="https://p6.focus.de/img/fotos/id_12565355/imago0105728927h.jpg?im=Crop%3D%280%2C242%2C2048%2C877%29%3BResize%3D%28476%2C204%29&amp;impolicy=perceptual&amp;quality=medium&amp;hash=1e6136250647d558ba1d356ab7511cbaa515f8862003f97bc38d010da41644c0" width="300" alt="Von Gavin McInnes gegründet: Trumps rechter Mob: Die proud boys der USA" class="lazyloaded" src="https://p6.focus.de/img/fotos/id_12565355/imago0105728927h.jpg?im=Crop%3D%280%2C242%2C2048%2C877%29%3BResize%3D%28476%2C204%29&amp;impolicy=perceptual&amp;quality=medium&amp;hash=1e6136250647d558ba1d356ab7511cbaa515f8862003f97bc38d010da41644c0">
+                <script type="application/ld+json">{"@context":"http://schema.org","@type":"ImageObject","contentUrl":"https://p6.focus.de/img/fotos/id_12565355/imago0105728927h.jpg?im=Resize%3D%281280%2C960%29&impolicy=perceptual&quality=medium&hash=9275281803a91d48de89a1205008428b36d7b1cc978a1fc7f22d58dc55b2661e"}</script>
+                <h2>Trumps rechter Mob: Die proud boys der USA</h2></a><a href="https://praxistipps.focus.de/donald-trump-vermoegen-familie-twitter-und-haare_121693" class="overflow-slider-item" title="45. US-Präsident: Donald Trump: Twitter, Familie, Frauen und Haare" rel="follow" gtm-click="teaser_carousel_inline|click"><img data-src="https://p6.focus.de/img/fotos/id_12086644/urn-newsml-dpa-com-20090101-200421-99-771243-large-4-3.jpg?im=Crop%3D%280%2C28%2C800%2C343%29%3BResize%3D%28476%2C204%29&amp;impolicy=perceptual&amp;quality=medium&amp;hash=ef866935a88a7872d0a6fe7143deccec11ef4cd832342e2bdb226767367c93d9" width="300" alt="45. US-Präsident: Donald Trump: Twitter, Familie, Frauen und Haare" class="lazyload" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NzYiIGhlaWdodD0iMjA0Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojOTk5OyIvPjwvc3ZnPg==">
+                <script type="application/ld+json">{"@context":"http://schema.org","@type":"ImageObject","contentUrl":"https://p6.focus.de/img/fotos/id_12086644/urn-newsml-dpa-com-20090101-200421-99-771243-large-4-3.jpg?im=Resize%3D%281280%2C960%29&impolicy=perceptual&quality=medium&hash=ec6f205bfa2417e686eb723ea964fbfbe799f24d9d6723a491c29b0d1ffbb34a"}</script>
+                <h2>Donald Trump: Twitter, Familie, Frauen und Haare</h2></a><a href="https://praxistipps.focus.de/adrenochrom-was-ist-das_121431" target="_blank" class="overflow-slider-item ps-tracking-comlinks ps-trackingname_Praxistipps_GartenTodsünden_Home_rechts_12115768 externalLink" title="Verschwörungstheorien: Adrenochrom: Worum es dabei geht" rel="follow" gtm-click="teaser_carousel_inline|click"><img data-src="https://p6.focus.de/img/fotos/id_11851237/naidoo-video-adrenochrom-5e88b113b037f57129bc5988-1-apr-04-2020-17-34-50-poster.jpg?im=Crop%3D%280%2C0%2C960%2C412%29%3BResize%3D%28476%2C204%29&amp;impolicy=perceptual&amp;quality=medium&amp;hash=86f833c1912268abd250fe74cbad1dabf8692ec545dd3798df519e510a8daaf9" width="300" alt="Verschwörungstheorien: Adrenochrom: Worum es dabei geht" class="lazyload" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NzYiIGhlaWdodD0iMjA0Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojOTk5OyIvPjwvc3ZnPg==">
+                <script type="application/ld+json">{"@context":"http://schema.org","@type":"ImageObject","contentUrl":"https://p6.focus.de/img/fotos/id_11851237/naidoo-video-adrenochrom-5e88b113b037f57129bc5988-1-apr-04-2020-17-34-50-poster.jpg?im=Resize%3D%281280%2C960%29&impolicy=perceptual&quality=medium&hash=724b97f822e856a17112fa5d93236c386daaf6d9bcbb51199c42ffaedd155955"}</script>
+                <h2>Adrenochrom: Worum es dabei geht</h2></a><a href="https://praxistipps.focus.de/uebersterblichkeit-statistik-zahlen-und-sonderauswertungen-erklaert_128473" class="overflow-slider-item" title="Offizielle Statistik: Übersterblichkeit in Deutschland - erste Zahlen zum Dezember 2021" rel="follow" gtm-click="teaser_carousel_inline|click"><img data-src="https://p6.focus.de/img/politik/ausland/id_24454406/bislang-sind-1-5-millionen-menschen-in-europa-an-oder-mit-covid-19-gestorben.-nach-einschaetzung-der-who-europa-koennten-hunderttausende-weitere-tote-hinzukommen..jpg?im=Crop%3D%280%2C244%2C2048%2C877%29%3BResize%3D%28476%2C204%29&amp;impolicy=perceptual&amp;quality=medium&amp;hash=996652593f0cc3f251107c16463ba81ecd785a45de80b7f1b692426170f2dd62" width="300" alt="Offizielle Statistik: Übersterblichkeit in Deutschland - erste Zahlen zum Dezember 2021" class="lazyload" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NzYiIGhlaWdodD0iMjA0Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojOTk5OyIvPjwvc3ZnPg==">
+                <script type="application/ld+json">{"@context":"http://schema.org","@type":"ImageObject","contentUrl":"https://p6.focus.de/img/politik/ausland/id_24454406/bislang-sind-1-5-millionen-menschen-in-europa-an-oder-mit-covid-19-gestorben.-nach-einschaetzung-der-who-europa-koennten-hunderttausende-weitere-tote-hinzukommen..jpg?im=Resize%3D%281280%2C960%29&impolicy=perceptual&quality=medium&hash=94374c23bd2d6e1873964b599989b277d85c66c4a5a51d14907a86803a69c56f"}</script>
+                <h2>Übersterblichkeit in Deutschland - erste Zahlen zum Dezember 2021</h2></a><a href="https://praxistipps.focus.de/nena-heute-was-nach-99-luftballons-kam_135935" class="overflow-slider-item" title="Sängerin: Nena heute: Mann, Kinder, Corona und Konzerte" rel="follow" gtm-click="teaser_carousel_inline|click"><img data-src="https://p6.focus.de/img/kultur/kultur-news/id_13565525/saengerin-nena-steht-in-der-live-uebertragung-der-zdf-sendung-willkommen-bei-carmen-nebel-in-der-tui-arena-auf-der-buehne..jpg?im=Crop%3D%280%2C51%2C2048%2C879%29%3BResize%3D%28476%2C204%29&amp;impolicy=perceptual&amp;quality=medium&amp;hash=6806692f772dca32d0b10fdcb7683fb190e82a3f34bc7b6acf0c2ce960ffe390" width="300" alt="Sängerin: Nena heute: Mann, Kinder, Corona und Konzerte" class="lazyload" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NzYiIGhlaWdodD0iMjA0Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojOTk5OyIvPjwvc3ZnPg==">
+                <script type="application/ld+json">{"@context":"http://schema.org","@type":"ImageObject","contentUrl":"https://p6.focus.de/img/kultur/kultur-news/id_13565525/saengerin-nena-steht-in-der-live-uebertragung-der-zdf-sendung-willkommen-bei-carmen-nebel-in-der-tui-arena-auf-der-buehne..jpg?im=Resize%3D%281280%2C960%29&impolicy=perceptual&quality=medium&hash=32e9740da9ae3420fecdffa2d4bad1f26d20ad499f034fbd8314550bea6aa025"}</script>
+                <h2>Nena heute: Mann, Kinder, Corona und Konzerte</h2></a><a href="https://praxistipps.chip.de/coronavirus-herkunft-tiermarkt-oder-labor-wuhan-oder-guangdong_119974" class="overflow-slider-item" title="Tiermarkt oder Labor?: Woher stammt das Coronavirus? Drei China-Theorien kursieren" rel="follow" gtm-click="teaser_carousel_inline|click"><img data-src="https://p6.focus.de/img/fotos/id_11916148/teasercorona.jpg?im=Crop%3D%280%2C129%2C1920%2C822%29%3BResize%3D%28476%2C204%29&amp;impolicy=perceptual&amp;quality=medium&amp;hash=ea75159ec4dc5bebc7f011c0a01c8bedee183999e51691867463fb4cf3dd025d" width="300" alt="Tiermarkt oder Labor?: Woher stammt das Coronavirus? Drei China-Theorien kursieren" class="lazyload" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NzYiIGhlaWdodD0iMjA0Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojOTk5OyIvPjwvc3ZnPg==">
+                <script type="application/ld+json">{"@context":"http://schema.org","@type":"ImageObject","contentUrl":"https://p6.focus.de/img/fotos/id_11916148/teasercorona.jpg?im=Resize%3D%281280%2C960%29&impolicy=perceptual&quality=medium&hash=93a7c24d38363239b229727fb69948acada7264e8c967c159398a94eb103ce32"}</script>
+                <h2>Woher stammt das Coronavirus? Drei China-Theorien kursieren</h2></a><a href="https://praxistipps.focus.de/corona-impfstoffe-wer-haftet-bei-impfschaeden-und-langzeitfolgen_139234" class="overflow-slider-item" title="Corona-Impfstoffe: Arzt, Hersteller, Steuerzahler? Wer bei Impfschäden und Langzeitfolgen haftet" rel="follow" gtm-click="teaser_carousel_inline|click"><img data-src="https://p6.focus.de/img/regional/bayern/id_24447097/eine-frau-bekommt-in-einem-impfzentrum-ihre-booster-impfung..jpg?im=Crop%3D%280%2C205%2C2048%2C877%29%3BResize%3D%28476%2C204%29&amp;impolicy=perceptual&amp;quality=medium&amp;hash=6edac59656102d06440cae613afacc1c8347b305175f3c2adf2515500da565b5" width="300" alt="Corona-Impfstoffe: Arzt, Hersteller, Steuerzahler? Wer bei Impfschäden und Langzeitfolgen haftet" class="lazyload" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NzYiIGhlaWdodD0iMjA0Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojOTk5OyIvPjwvc3ZnPg==">
+                <script type="application/ld+json">{"@context":"http://schema.org","@type":"ImageObject","contentUrl":"https://p6.focus.de/img/regional/bayern/id_24447097/eine-frau-bekommt-in-einem-impfzentrum-ihre-booster-impfung..jpg?im=Resize%3D%281280%2C960%29&impolicy=perceptual&quality=medium&hash=a9f3da9acd74a7622ef28d53c902401c183f6b4a63ce9509c107d9548a89bc6b"}</script>
+                <h2>Arzt, Hersteller, Steuerzahler? Wer bei Impfschäden und Langzeitfolgen haftet</h2></a><a href="https://praxistipps.chip.de/verschwoerungstheorien-und-fakten-was-bill-gates-mit-dem-coronavirus-zu-tun-hat_120889" class="overflow-slider-item" title="Verschwörungstheorien und Fakten: Was Bill Gates und seine Stiftung mit dem Coronavirus zu tun haben" rel="follow" gtm-click="teaser_carousel_inline|click"><img data-src="https://p6.focus.de/img/fotos/id_12004787/gates-dpa.jpg?im=Crop%3D%280%2C129%2C1920%2C822%29%3BResize%3D%28476%2C204%29&amp;impolicy=perceptual&amp;quality=medium&amp;hash=456abe13e0a7dd16f1d3293672891c88e24a0f7e11c5739a397ea1439c30019a" width="300" alt="Verschwörungstheorien und Fakten: Was Bill Gates und seine Stiftung mit dem Coronavirus zu tun haben" class="lazyload" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NzYiIGhlaWdodD0iMjA0Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojOTk5OyIvPjwvc3ZnPg==">
+                <script type="application/ld+json">{"@context":"http://schema.org","@type":"ImageObject","contentUrl":"https://p6.focus.de/img/fotos/id_12004787/gates-dpa.jpg?im=Resize%3D%281280%2C960%29&impolicy=perceptual&quality=medium&hash=3103255154382e999e177e5961f656798cf4fbd7e1c683732a0beb7f6cf62026"}</script>
+                <h2>Was Bill Gates und seine Stiftung mit dem Coronavirus zu tun haben</h2></a><a href="https://praxistipps.focus.de/attila-hildmann-vom-vegan-koch-zum-verschwoerungstheoretiker_125223" class="overflow-slider-item" title="Per Haftbefehl gesucht: Attila Hildmann: Vom Vegankoch zum Verschwörungstheoretiker" rel="follow" gtm-click="teaser_carousel_inline|click"><h2>Attila Hildmann: Vom Vegankoch zum Verschwörungstheoretiker</h2></a><a href="https://praxistipps.focus.de/reichsbuerger-in-deutschland-das-sollten-sie-wissen_125314" class="overflow-slider-item" title="Politik: Reichsbürger in Deutschland: Das sollten Sie wissen" rel="follow" gtm-click="teaser_carousel_inline|click"><img data-src="https://p6.focus.de/img/fotos/id_9663257/urn-newsml-dpa-com-20090101-180926-99-127732-large-4-3.jpg?im=Crop%3D%280%2C129%2C800%2C342%29%3BResize%3D%28476%2C204%29&amp;impolicy=perceptual&amp;quality=medium&amp;hash=86ea1b84b888f05fb962541a18325aebb760c26995967464d439afcd63af8e29" width="300" alt="Politik: Reichsbürger in Deutschland: Das sollten Sie wissen" class="lazyload" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NzYiIGhlaWdodD0iMjA0Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojOTk5OyIvPjwvc3ZnPg==">
+                <script type="application/ld+json">{"@context":"http://schema.org","@type":"ImageObject","contentUrl":"https://p6.focus.de/img/fotos/id_9663257/urn-newsml-dpa-com-20090101-180926-99-127732-large-4-3.jpg?im=Resize%3D%281280%2C960%29&impolicy=perceptual&quality=medium&hash=8097454f2eb5134d512aa8433daf537668c4d8be48fe5e3c3dcca8a433f00ef5"}</script>
+                <h2>Reichsbürger in Deutschland: Das sollten Sie wissen</h2></a><a href="https://praxistipps.chip.de/impfstoff-check-biontech-moderna-curevac-astrazeneca-johnson-johnson_126159" class="overflow-slider-item" title="Impfstoffe im großen Check: Infos zu Biontech, Moderna, Novavax, Astrazeneca, Curevac, Johnson &amp; Johnson" rel="follow" gtm-click="teaser_carousel_inline|click"><img data-src="https://p6.focus.de/img/fotos/id_12651877/19.jpg?im=Crop%3D%280%2C340%2C5081%2C2177%29%3BResize%3D%28476%2C204%29&amp;impolicy=perceptual&amp;quality=medium&amp;hash=8bd5f72fe04a86e3f977aab52fa81e56ec951083caa1c9ad8ff33e97f7d0964b" width="300" alt="Impfstoffe im großen Check: Infos zu Biontech, Moderna, Novavax, Astrazeneca, Curevac, Johnson &amp; Johnson" class="lazyload" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NzYiIGhlaWdodD0iMjA0Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojOTk5OyIvPjwvc3ZnPg==">
+                <script type="application/ld+json">{"@context":"http://schema.org","@type":"ImageObject","contentUrl":"https://p6.focus.de/img/fotos/id_12651877/19.jpg?im=Resize%3D%281280%2C960%29&impolicy=perceptual&quality=medium&hash=ea9121da125fe843aff1b0fd69c7a6a52a9dc3a38a6a4592b7fa2b8534e592d2"}</script>
+                <h2>Infos zu Biontech, Moderna, Novavax, Astrazeneca, Curevac, Johnson &amp; Johnson</h2></a></div>
+        </div>
+
+        <h2>Erschöpfter Chefarzt richtet verzweifelte Worte an alle und sagt, was Impfung bewirken kann</h2>
+        <div class="mediaBlock arto mobile clearfix">
+            <div id="videofwid6" class="video clearfix">
+                <div id="playerswffwid6" style="position: relative;width:100%" class="video play_s">
+                    <a href="https://m.focus.de/gesundheit/coronavirus/lungenversagen-bei-covid-erkrankten-lungenversagen-bei-covid-erkrankten-chefarzt-richtet-verzweifelte-worte-an-alle_id_34358954.html" class="_vid_" title="Dramatischer Appell: Lungenversagen bei Covid-Erkrankten: Erschöpfter Chefarzt richtet verzweifelte Worte an alle"><img data-src="https://p6.focus.de/img/fotos/id_34354875/erschoepfter-chefarzt-richtet-verzweifelte-worte-an-alle-und-sagt-was-impfung-bewirken-kann.png?im=Crop%3D%28102%2C0%2C796%2C450%29%3BResize%3D%28800%2C451%29&amp;impolicy=perceptual&amp;quality=medium&amp;hash=c31092c25bf3e65231238c0a50258a654724b794dc33636f3cc00b1f0fe74f74" title="Erschöpfter Chefarzt richtet verzweifelte Worte an alle und sagt, was Impfung bewirken kann" style="width: 100%; height: auto;" width="800" height="451" border="0" class="lazyloaded" src="https://p6.focus.de/img/fotos/id_34354875/erschoepfter-chefarzt-richtet-verzweifelte-worte-an-alle-und-sagt-was-impfung-bewirken-kann.png?im=Crop%3D%28102%2C0%2C796%2C450%29%3BResize%3D%28800%2C451%29&amp;impolicy=perceptual&amp;quality=medium&amp;hash=c31092c25bf3e65231238c0a50258a654724b794dc33636f3cc00b1f0fe74f74">
+                        <div class="player-ico"><span></span></div></a><a class="video" title="Video" href="javascript:;"></a>
+                </div>
+                <div class="caption clearfix" style="width:100%">
+                    <span class="source">glomex</span> <span class="caption">Erschöpfter Chefarzt richtet verzweifelte Worte an alle und sagt, was Impfung bewirken kann</span>
+                </div>
+            </div>
+        </div>
+
+        <iframe src="https://user-rating.burda-forward.de/?campaignId=1&amp;articleId=35851693&amp;team=0003&amp;token=6469daef123c529d291746a47c0437e6 " scrolling="no" width="100%" height="250" style="border:none;margin:0;padding:0;" title="Konstruktive Bewertung"></iframe>
+
+        <div id="comment_section_wrapper">
+            <a name="comment_section"></a>
+            <div class="comments_header_wrapper">
+                <div class="comments_header">
+                    <span>Kommentare (157)</span>
+                </div>
+                <a href="javascript:void(0)" class="bluebutton chooseForm" open="login"><span>Kommentieren</span></a>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div id="commentsDisclaimer">Bei den folgenden Kommentaren handelt es sich um die Meinung einzelner FOCUS-Online-Nutzer. Sie spiegeln nicht die Meinung der Redaktion wider.</div>
+        <div id="comments" class="clearfix">
+            <a class="commentsSet" name="commentsSet" rel="TFCMS1_CMS||35851693||yes||https://m.focus.de/gesundheit/coronavirus/borwin-bandelow-im-gespraech-neurologe-ueber-corona-leugner-ihr-vernunft-gehirn-schaltet-sich-aus_id_35851693.html||PUSH - Borwin Bandelow im Gespräch - \" ihr="" vernunft-gehirn="" schaltet="" sich="" aus\":="" neurologe="" erklärt,="" was="" corona-leugner="" antreibt||push="" -="" borwin="" bandelow="" im="" gespräch="" \"ihr="" antreibt||https:="" m.focus.de="" gesundheit="" coronavirus="" ||10||0||3"=""></a>
+            <div class="comment clearfix oid-17020345 open">
+                <div class="comment_date">
+                <span>
+                <a title="Kommentare von Emmanuel Precht" href="https://m.focus.de/community/user/emmanuel-precht_id_297036.html">Emmanuel Precht</a>
+         |
+                    Gestern, 11.01.2022 | 06:56 Uhr
+                </span>
+                </div>
+                <div class="clearfix"></div>
+                <div class="comment_headline"><span>Geringes Risiko laut Statistik </span></div>
+                <div class="comment_text"><span>Schwerwiegende Nebenwirkungen bezeichnen Fachleute wie zum Beispiel die STIKO-Mitglieder als<span class="divider"> ... </span> <span class="remainder" style="display:none;">Schwerwiegende Nebenwirkungen bezeichnen Fachleute wie zum Beispiel die STIKO-Mitglieder auch als Impfkomplikationen. Das Risiko einer schwerwiegenden unerwünschten Arzneimittelwirkung nach einer COVID-19-Impfung ist sehr gering und liegt bei gerade einmal 0,02 Prozent – betrifft also durchschnittlich nur eine von 5.000 Personen.</span></span></div>
+            </div>
+            <div class="getMoreComments">
+                <a class="bluebutton first"><span>Weitere Kommentare anzeigen</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="MEW_scroll_to_top_wrapper" class="show_5s">
+        <div class="arrow top">
+            <svg width="25" height="25" class="icon-arrow"><use href="./images/sprite.svg#icon-arrow-up-thick"></use></svg>
+        </div>
+    </div>
+
+    <script src="progress-bar.js" type="module"></script>
+    <script src="scroll-to-top-button.js" type="module"></script>
+</body>
+
+</html>
