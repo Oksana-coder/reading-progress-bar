@@ -61,9 +61,21 @@
                 <span class="authorTitle">FOCUS-Online-Autorin <a href="https://m.focus.de/intern/impressum/autoren/elisabeth-hussendoerfer_id_7646605.html" title="Autorenseite von Elisabeth Hussendörfer" rel="author">Elisabeth Hussendörfer</a></span><div class="authorSocSites"></div>
             </div>
             <div class="clear"></div>
+
         </div>
 
-        <p class="lead-in">Um die Pandemie zu beenden, müssen möglichst viele Menschen geimpft sein. Das werden Mediziner nicht müde zu betonen. Dennoch sind fast zehn Millionen Erwachsene in Deutschland ungeimpft. Was die Hardliner unter ihnen antreibt, erklärt Angstforscher Borwin Bandelow.</p>
+        <div style="height: 50px; text-align: center">
+            <button id="playPauseBtn" style="width: 220px; height: 35px; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 14px; font-weight: 600; color: #fff; background-color: #156fbc; border-radius: 0.25rem; cursor: pointer; border: none;">
+                <span id="play-text"> Artikel anhören </span>
+                <span id="pause-text" style="display: none;"> Artikel pausieren </span>
+                <img src="./images/sound_icon_white.svg" alt="Sound Icon" width="20" id="sound-icon" style="margin-left: 10px;">
+                <img src="./images/pause_icon_white_v1.svg" alt="Pause Icon" width="20" id="pause-icon" style="margin-left: 10px; display: none;">
+            </button>
+        </div>
+
+        <div class="leadIn">
+            <p>Um die Pandemie zu beenden, müssen möglichst viele Menschen geimpft sein. Das werden Mediziner nicht müde zu betonen. Dennoch sind fast zehn Millionen Erwachsene in Deutschland ungeimpft. Was die Hardliner unter ihnen antreibt, erklärt Angstforscher Borwin Bandelow.</p>
+        </div>
         <p>Corona-Leugner wirken zuweilen unerschrocken. Manche betonen, das Virus sei harmlos beziehungsweise längst nicht so gefährlich wie vielfach behauptet. Psychiater und Neurologen Borwin Bandelow spricht im FOCUS-Online-Interview über den unterschiedlichen Umgang der Menschen mit der Angst.</p>
         <p>
             <strong>FOCUS Online: Das „Angstbuch“ gehört zu Ihren bekanntesten Veröffentlichungen, Sie haben sich umfangreich mit dem Thema auseinandergesetzt. Wie ist Ihre Einschätzung: Haben Menschen, die das Virus leugnen oder gegen Corona-Maßnahmen auf die Straße gehen, wirklich weniger Angst als andere?</strong>
@@ -218,6 +230,7 @@
 
     <script src="progress-bar.js" type="module"></script>
     <script src="scroll-to-top-button.js" type="module"></script>
+    <script src="listen-to-article.js" type="module"></script>
 </body>
 
 </html>
