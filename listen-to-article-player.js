@@ -47,6 +47,7 @@ function goToAudioStart() {
     isPlaying = false;
     clearInterval(intervalId);
     playPauseBtn.innerHTML = '<i class="fa fa-play" aria-hidden="true"></i>';
+    slider.value = 0;
 }
 
 function updateDurationSliderPosition() {
