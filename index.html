@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Reading Progress Bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -64,13 +65,42 @@
 
         </div>
 
-        <div style="height: 50px; text-align: center">
-            <button id="playPauseBtn" style="width: 220px; height: 35px; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 14px; font-weight: 600; color: #fff; background-color: #156fbc; border-radius: 0.25rem; cursor: pointer; border: none;">
-                <span id="play-text"> Artikel anhören </span>
-                <span id="pause-text" style="display: none;"> Artikel pausieren </span>
-                <img src="./images/sound_icon_white.svg" alt="Sound Icon" width="20" id="sound-icon" style="margin-left: 10px;">
-                <img src="./images/pause_icon_white_v1.svg" alt="Pause Icon" width="20" id="pause-icon" style="margin-left: 10px; display: none;">
+<!--        <div style="height: 50px; text-align: center">-->
+<!--            <button id="playPauseBtn" style="width: 220px; height: 35px; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 14px; font-weight: 600; color: #fff; background-color: #156fbc; border-radius: 0.25rem; cursor: pointer; border: none;">-->
+<!--                <span id="play-text"> Artikel anhören </span>-->
+<!--                <span id="pause-text" style="display: none;"> Artikel pausieren </span>-->
+<!--                <img src="./images/sound_icon_white.svg" alt="Sound Icon" width="20" id="sound-icon" style="margin-left: 10px;">-->
+<!--                <img src="./images/pause_icon_white_v1.svg" alt="Pause Icon" width="20" id="pause-icon" style="margin-left: 10px; display: none;">-->
+<!--            </button>-->
+<!--        </div>-->
+
+        <div class="listen-to-article-headline">
+            <i class="fa fa-headphones" aria-hidden="true"></i>
+            <span>Artikel anhören</span>
+        </div>
+        <div class="player-controls">
+            <button id="playPauseBtn" class="playPauseBtn">
+                <i class="fa fa-play" aria-hidden="true"></i>
             </button>
+
+            <div class="speed-dropdown">
+                <button id="dropdown-btn" class="dropdown-btn">1.0x</button>
+                <ul id="dropdown-items" class="dropdown-items">
+                    <li> 0.5x </li>
+                    <li> 0.75x </li>
+                    <li> 1.0x </li>
+                    <li> 1.25x </li>
+                    <li> 1.5x </li>
+                    <li> 1.75x </li>
+                    <li> 2.0x </li>
+                </ul>
+            </div>
+
+            <div class="duration">
+                <input type="range" min="0" max="100" value="0" id="duration-slider" class="duration_slider">
+            </div>
+
+            <div id="playtime-left" class="playtime-left">00:00</div>
         </div>
 
         <div class="leadIn">
@@ -230,7 +260,8 @@
 
     <script src="progress-bar.js" type="module"></script>
     <script src="scroll-to-top-button.js" type="module"></script>
-    <script src="listen-to-article.js" type="module"></script>
+<!--    <script src="listen-to-article-tts.js" type="module"></script>-->
+    <script src="listen-to-article-player.js" type="module"></script>
 </body>
 
 </html>
